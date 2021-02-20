@@ -3,3 +3,13 @@ Aviso: NBT na 1.7.10 é algo frágil, sempre teste no singleplayer, esses métod
 
 
 Qualquer outra dúvida, deverá ser tirada com PewDizinho#3014 (discord)
+
+
+
+You are free to use these functions in your own code, you can also sell code that uses these functions, but not sell the functions themselves
+Warning: NBT in 1.7.10 is fragile, always test in singleplayer, these methods are just a facilitation to access some information from NBT, if your map/server corrupts, keep in mind that the functions are not to blame, and yes who used them.
+
+
+Any other questions, should be taken with PewDizinho # 3014 (discord)
+
+
