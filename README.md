@@ -13,3 +13,4 @@ Some functions to help with Custom Npc 1.7.10 scripting interacting with the Dra
 * [Pew's Cavern](https://customnpcscripts.com/pew)
 * [CNPC Scripting Support Discord](https://discord.gg/4a24F2z)
 * [Forge Methods](https://github.com/KevyPorter/Minecraft-Forge-Utils)
+* [CNPC 1.7.10 API](http://www.kodevelopment.nl/customnpcs/api/1.7.10/)
