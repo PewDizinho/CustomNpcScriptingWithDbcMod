@@ -1,9 +1,5 @@
-# CustomNpcScriptingWithDbcMod
+# Custom Npc Scripting With Dbc Mod
 Algumas funções para ajudar com o scripting de Custom Npc 1.7.10 interagindo com o mod Dragon Block C 
-
-
-
-
 
 
 
