@@ -12,7 +12,7 @@
 * Damaged Hook
 ```js
 if(event.getSource().typeOf(1)){
-  npc.say("Hey " + event.getSource().getName() + " sua CON atual é de: " + getDbcAttributes(event.getSource())); 
+  npc.say("Hey " + event.getSource().getName() + " sua CON atual é de: " + getDbcAttributes(event.getSource()).con); 
 }
 ```
 
