@@ -28,7 +28,7 @@ if(event.getSource().typeOf(1)){
 
 * Interact hook
 ```js
-  setDbcAttributes(player).str(getDbcAttributes(player).str + 5));
+  setDbcAttributes(player).str(getDbcAttributes(player).str + 5);
 ```
 
 ### Links 
