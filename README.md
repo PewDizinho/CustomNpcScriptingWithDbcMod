@@ -19,7 +19,7 @@ if(event.getSource().typeOf(1)){
 * Attack Hook
 ```js
   if(npc.getAttackTarget().typeOf(1)){
-  setDbcAttributes(npc.getAttackTarget().con(20);
+  setDbcAttributes(npc.getAttackTarget()).con(20);
   npc.say("Sua nova con é de 20!");
 }
 ```
