@@ -12,6 +12,25 @@ Some functions to help with Custom Npc 1.7.10 scripting interacting with the Dra
 * [CNPC 1.7.10 API](http://www.kodevelopment.nl/customnpcs/api/1.7.10/)
 
 ##Examplos
+
+* Interact Hook
 ```js
-  //teste
+  npc.say("Hey " + player.getName() + " sua vida atual é de: " + getDbcHealth(player));
 ```
+
+* Damaged Hook
+```js
+if(event.getSource().typeOf(1)){
+  npc.say("Hey " + event.getSource().getName() + " sua CON atual é de: " + getDbcAttributes(event.getSource())); 
+}
+```
+
+* Attack Hook
+```js
+  if(npc.getAttackTarget().typeOf(1)){
+  setDbcAttributes(npc.getAttackTarget().con(20);
+  npc.say("Sua nova con é de 20!");
+}
+```
+
+
