@@ -33,4 +33,4 @@ if(event.getSource().typeOf(1)){
 }
 ```
 
-
+*** Usando juntos
