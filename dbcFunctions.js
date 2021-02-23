@@ -1,3 +1,4 @@
+
 /**
  * @author PewDizinho
  * @version 2.5
@@ -21,6 +22,7 @@
 
 
 
+
 function getDbcHealth(p) {
     if (p.typeOf(1)) {
         return p.getMCEntity().getEntityData().func_74775_l("PlayerPersisted").func_74779_i("jrmcBdy");
@@ -39,6 +41,7 @@ function getDbcAttributes(p) {
             mnd: _NBT.func_74762_e('jrmcIntI'),
             spi: _NBT.func_74762_e('jrmcCncI'),
             tp: _NBT.func_74762_e('jrmcTpint'),
+            pr: _NBT.func_74762_e('jrmcRelease'),
             form: _NBT.func_74779_i('jrmcSSltX').toString().replace(/TR/i, ""),
         };
     };
@@ -69,6 +72,9 @@ function setDbcAttributes(p) {
             },
             tp: function setTp(value) {
                 _NBT.func_74768_a('jrmcTpint', value);
+            },
+            pr: function setPowerReleased(value) {
+                _NBT.func_74768_a('jrmcRelease', value);
             },
             form: function setForm(value) {
                 _NBT.func_74778_a('jrmcSSltX', "TR" + value);
