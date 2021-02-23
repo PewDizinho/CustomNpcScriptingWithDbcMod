@@ -22,7 +22,6 @@
 
 
 
-
 function getDbcHealth(p) {
     if (p.typeOf(1)) {
         return p.getMCEntity().getEntityData().func_74775_l("PlayerPersisted").func_74779_i("jrmcBdy");
