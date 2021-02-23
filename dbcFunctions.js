@@ -1,7 +1,7 @@
 
 /**
  * @author PewDizinho
- * @version 2.5
+ * @version 3.0
  * 
  * 
  * @param {getDbcHealth} iPlayer
